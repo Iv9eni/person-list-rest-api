@@ -1,5 +1,3 @@
-### Description
-
 Simple RESTful application created with **Java** & **Spring**  using Apache Tomcat. This application can be treated as a microservice with a simple database as a List\<E\> which stores a list of *people* entries that can be editted.
 
 ### Features
@@ -8,15 +6,13 @@ Simple RESTful application created with **Java** & **Spring**  using Apache Tomc
 
 ### Instructions
 
-#### GET localhost:8080/api/v1/person
+`GET localhost:8080/api/v1/person`
 - Retrieves all people.
 
-#### GET localhost:8080/api/v1/person/{id}
+`GET localhost:8080/api/v1/person/{id}`
 - Retrieves single person entry with specified id.
 
-#### POST localhost:8080/api/v1/person
-
-*Payload as JSON:*
+`POST localhost:8080/api/v1/person` with JSON:
 ```json
 {
     "name": "John Doe"
@@ -24,6 +20,6 @@ Simple RESTful application created with **Java** & **Spring**  using Apache Tomc
 ```
 - Creates a person entry and adds them to the database generating a unique UUID with the name specified in the JSON body above.
 
-#### DELETE localhost:8080/api/v1/person/{id}
+`DELETE localhost:8080/api/v1/person/{id}`
 
 - Deletes person with specified id.
