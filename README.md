@@ -1,3 +1,5 @@
+### Description
+
 Simple RESTful application created with **Java** & **Spring**  using Apache Tomcat. This application can be treated as a microservice with a simple database as a List\<E\> which stores a list of *people* entries that can be editted.
 
 ### Features
