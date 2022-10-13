@@ -14,7 +14,7 @@ Simple RESTful application created with **Java** & **Spring**  using Apache Tomc
 `GET localhost:8080/api/v1/person/{id}`
 - Retrieves single person entry with specified id.
 
-`POST localhost:8080/api/v1/person` with JSON:
+`POST localhost:8080/api/v1/person`
 ```json
 {
     "name": "John Doe"
