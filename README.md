@@ -22,6 +22,15 @@ Simple RESTful application created with **Java** & **Spring**  using Apache Tomc
 ```
 - Creates a person entry and adds them to the database generating a unique UUID with the name specified in the JSON body above.
 
+`PUT localhost:8080/api/v1/person/{id}`
+```json
+{
+    "name": "John Doe"
+}
+```
+- Modifies the persons name with {id} to the name "John Doe" if they exist.
+
+
 `DELETE localhost:8080/api/v1/person/{id}`
 
 - Deletes person with specified id.
